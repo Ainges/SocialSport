@@ -1,10 +1,21 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Übung 2 Aufgabe 5 - Startseite</title>
+	</head>
+	<body>
+		<h1>Seite mit Link zu einer anderen Seite und Formular</h1>
+		<p>Dieser Absatz enthält einen <a href="uebung2_aufgabe5_verlinkteseite.html">Link zu einer zweiten Seite</a>.</p>
+		<h3>Ein Formular zum Testen von GET und POST Methoden des HTTP-Protokolls</h3>
+		
+		<!-- Hier Formular einbauen -->
+		<form method="get" action="uebung2_aufgabe5_formausgabe.jsp">
+				<label for="vorname">Vorname: </label><br>
+				<input required id="vorname" name="vorname" type="text" value=""><br>
+				<label for="nachname">Nachname: </label><br>
+				<input required id="nachname" name="nachname" type="text" value=""><br><br>
+				<input type="submit">
+		</form>
+	</body>
 </html>
